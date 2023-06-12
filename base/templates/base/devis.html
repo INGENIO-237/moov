@@ -1,0 +1,204 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+<link href="../static/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="../static/css/style.css">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/assets/c-4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Obtenez votre devis gratuitement</h5>
+        </div>
+      </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                  <h2>Devis gratuit</h2>
+                  <p>Demandez votre devis gratuit en remplissant le formulaire ci-dessous. Un expert Moov transport de
+                     véhicules vous contactera afin d’évaluer vos besoins et de vous fournir un devis personnalisé et compétitif. 
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">DEMENAGEMENT</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">TRANSFERT DE BUREAUX</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">ENVOI DE COLIS</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                <div class="row m-0">
+                  <div class="col-md-12 p-0 pt-4 pb-4">
+                      <form action="#" class="bg-light p-4 m-auto">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Nom complet" required="" type="text">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Email" required="" type="email">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                    <input class="form-control" placeholder="Numero telephone" required="" type="number">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu depart" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu arrivée" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date déménagement" required="" type="date">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date devis" required="" type="date">
+                                </div>
+                              </div>
+                              <button class="btn btn-warning btn-lg btn-block mt-3" type="button">Envoyer</button>
+                          </div> 
+                      </form>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                <div class="row m-0">
+                  <div class="col-md-12 p-0 pt-4 pb-4">
+                      <form action="#" class="bg-light p-4 m-auto">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Nom complet" required="" type="text">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Email" required="" type="email">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                    <input class="form-control" placeholder="Numero telephone" required="" type="number">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu depart" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu arrivée" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date déménagement" required="" type="date">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date devis" required="" type="date">
+                                </div>
+                              </div>
+                              <button class="btn btn-warning btn-lg btn-block mt-3" type="button">Envoyer</button>
+                          </div> 
+                      </form>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                <div class="row m-0">
+                  <div class="col-md-12 p-0 pt-4 pb-4">
+                      <form action="#" class="bg-light p-4 m-auto">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Nom complet" required="" type="text">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                      <input class="form-control" placeholder="Email" required="" type="email">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <div class="mb-3">
+                                    <input class="form-control" placeholder="Numero telephone" required="" type="number">
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu depart" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Lieu arrivée" required="" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date déménagement" required="" type="date">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Date devis" required="" type="date">
+                                </div>
+                              </div>
+                              <button class="btn btn-warning btn-lg btn-block mt-3" type="button">Envoyer</button>
+                          </div> 
+                      </form>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+ 
+      
+
+
+<script src="../static/js/bootstrap.bundle.min.js"></script>
+<script src="../static/js/script.js"></script>
+
+{% endblock content %}
+
